@@ -72,3 +72,21 @@ a:hover {
     background: url(../images/hero-image.jpeg) no-repeat center center;
     background-size: cover;
 }
+
+
+/* --------------------------------------------------- Hero-buttons - styling */
+#hero-buttons-outer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12rem;
+    margin-top: 24rem;
+}
+
+.hero-buttons {
+    height: 3rem;
+    width: 12rem;
+
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}

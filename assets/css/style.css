@@ -89,4 +89,17 @@ a:hover {
     cursor: pointer;
     font-size: 1.5rem;
     text-transform: uppercase;
+
+    border: 2px solid rgb(133,58,90);
+    background-color: rgba(17, 35, 45, 0.504);
+    color: rgb(133,58,90);
+    box-shadow: 0 8px 8px rgb(0 0 0 / 35%);
+}
+
+.hero-button:hover {
+    box-shadow: -1px -2px 20px rgba(251, 250, 250, 0.223);
+}
+
+#hero-button-left {
+    background-color: rgb(17 35 45 / 72%);
 }

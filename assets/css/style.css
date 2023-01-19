@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Saira+Semi+Condensed:wght@300&display=swap');
+/*
+font-family: 'Caveat', cursive;
+font-family: 'Saira Semi Condensed', sans-serif;
+*/
+
+/* --------------------------------------------------- Body - basic styling */
+body {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+
+    font-family: 'Saira Semi Condensed', sans-serif;
+}

@@ -7,8 +7,7 @@ font-family: 'Saira Semi Condensed', sans-serif;
 /* --------------------------------------------------- Body - basic styling */
 body {
     max-width: 2500px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 
     font-family: 'Saira Semi Condensed', sans-serif;
 }
@@ -54,4 +53,22 @@ a {
 
 a:hover {
     color: rgb(17,35,45);
+}
+
+/* --------------------------------------------------- Hero-image - styling */
+#hero-outer {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: -1px 0px 20px 4px rgb(57 37 37);
+}
+
+#hero-image {
+    height: 91.5vh;
+    width: 100%;
+
+    border-top: 2px solid rgb(133,58,90);
+
+    background: url(../images/hero-image.jpeg) no-repeat center center;
+    background-size: cover;
 }

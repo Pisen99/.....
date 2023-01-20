@@ -155,9 +155,32 @@ a:hover {
     width: 70%;
 }
 
+
 /* --------------------------------------------------- Footer - styling */
 footer {
     margin-top: 50rem;
     background-color: rgb(62,80,96);
     background-image: linear-gradient(216deg, rgb(17,35,45), transparent);
+}
+
+
+/* --------------------------------------------------- Footer info - styling */
+#info-container {
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    color: #fff;
+}
+
+.info-box {
+    padding: 4rem;
+    text-align: center;
+}
+
+#info-img {
+    height: 30vh;
+    width: 22vw;
 }

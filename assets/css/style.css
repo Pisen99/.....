@@ -103,3 +103,34 @@ a:hover {
 #hero-button-left {
     background-color: rgb(17 35 45 / 72%);
 }
+
+
+/* --------------------------------------------------- About images - styling */
+#img1 {
+    height: 38vh;
+    width: 24vw;
+    position: absolute;
+    left: 4%;
+    border: 4px solid rgb(133,58,90);
+    box-shadow: 0 8px 8px rgb(0 0 0 / 50%);
+}
+
+#img2 {
+    height: 38vh;
+    width: 24vw;
+    position: absolute;
+    top: 128%;
+    left: 22%;
+    border: 4px solid rgb(133,58,90);
+    box-shadow: 0 8px 8px rgb(0 0 0 / 50%);
+}
+
+#img3 {
+    height: 38vh;
+    width: 24vw;
+    position: absolute;
+    top: 153%;
+    left: 4%;
+    border: 4px solid rgb(133,58,90);
+    box-shadow: 0 8px 8px rgb(0 0 0 / 50%);
+}

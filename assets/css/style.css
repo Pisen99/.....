@@ -154,3 +154,10 @@ a:hover {
 #about-left {
     width: 70%;
 }
+
+/* --------------------------------------------------- Footer - styling */
+footer {
+    margin-top: 50rem;
+    background-color: rgb(62,80,96);
+    background-image: linear-gradient(216deg, rgb(17,35,45), transparent);
+}

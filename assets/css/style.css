@@ -12,7 +12,7 @@ body {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-/* --------------------------------------------------- a, span, h2 - basic styling */
+/* --------------------------------------------------- a, span, h2, mark - basic styling */
 a {
     margin-left: 1.5rem;
 
@@ -26,6 +26,11 @@ a {
 
 h2 {
     border-bottom: 2px solid rgb(133,58,90);
+}
+
+mark {
+    background-color: rgb(133, 58, 91);
+    color: marktext;
 }
 
 
@@ -167,7 +172,7 @@ footer {
 /* --------------------------------------------------- Footer info - styling */
 #info-container {
     width: 100%;
-    
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -183,4 +188,16 @@ footer {
 #info-img {
     height: 30vh;
     width: 22vw;
+}
+
+
+/* --------------------------------------------------- Social media - styling */
+#social-media {
+    cursor: pointer;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fa-brands {
+    font-size: 1.5rem;
 }

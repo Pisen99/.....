@@ -12,7 +12,7 @@ body {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-/* --------------------------------------------------- a, span - basic styling */
+/* --------------------------------------------------- a, span, h2 - basic styling */
 a {
     margin-left: 1.5rem;
 
@@ -23,6 +23,11 @@ a {
 #color-span {
     color: rgb(17,35,45);
 }
+
+h2 {
+    border-bottom: 2px solid rgb(133,58,90);
+}
+
 
 /* --------------------------------------------------- Navbar, logo & menu - styling */
 #navbar {
